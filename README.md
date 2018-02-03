@@ -8,7 +8,24 @@ The entire library is Swing-based, using absolutely no external libraries. To a 
 
 ## Installation
 
-To install the library into your local Maven repository, run the following commands:
+To use this library in your project (although I wouldn't suggest it), add the following to your `pom.xml`:
+
+```xml
+<repository>
+    <id>rayzr-repo</id>
+    <url>https://cdn.rawgit.com/Rayzr522/maven-repo/master/</url>
+</repository>
+```
+
+```xml
+<dependency>
+    <groupId>me.rayzr522</groupId>
+    <artifactId>sagl</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+</dependency>
+```
+
+Or, to install the library into your local Maven repository, run the following commands:
 
 ```bash
 $ git clone https://github.com/Rayzr522/SAGL.git
@@ -17,7 +34,7 @@ $ mvn
 # Stone Age Game Library will now be installed to your local Maven repository
 ```
 
-This means you can now compile projects that require SAGL. 
+This means you can now compile projects that require SAGL.
 
 ## Join Me
 
